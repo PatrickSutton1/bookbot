@@ -27,8 +27,8 @@ def main():
         to_sort.sort(key=sort_on, reverse=True)
         print_report(to_sort)
     except:
-        print("Usage: python main.py <file name> <path to file>")
-        print('Example: python main.py "books/frankenstein.txt"')
+        print("Usage: python3 main.py <path_to_book>")
+        print('Example: python3 main.py "books/frankenstein.txt"')
         sys.exit(1)
 
 
